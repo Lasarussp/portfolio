@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import resume from '../assets/resume.pdf';
 
 const Home = () => {
   return (
@@ -15,12 +15,17 @@ const Home = () => {
             Currently, I'm focused on building responsive full-stack web
             applications.
         </h5>
-        <div>
-            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:boredr-pink-600'>View Work 
-            <span className='group-hover:rotate-90 duration-300'>
-            <HiArrowNarrowRight className='ml-3' />
-            </span>
-            </button>
+        <div className="rounded-md shadow">
+          <button className="flex items-center justify-center w-50 p-4 text-base font-medium text-white bg-pink-500 rounded-md hover:bg-pink-600">
+            <a
+              href="https://drive.google.com/file/d/1GYy6qJw-NRim3sLpD5pHr4H1YmDN6k6O/view?usp=share_link"
+              download={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </button>
         </div>
       </div>
     </div>
