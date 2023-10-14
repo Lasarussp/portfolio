@@ -1,6 +1,6 @@
 import inventory from '../assets/Projects/dashboard-inventory.png';
-import login from '../assets/Projects/login.png';
-//import crud from '../assets/Projects/crud.png';
+import urlshortner from '../assets/Projects/urlshortner.png';
+import ecommerce from '../assets/Projects/ecommerce.png';
 
 export const data = [
   {
@@ -13,18 +13,18 @@ export const data = [
   },
   {
     id: 2,
-    name: "Login App(MERN)",
-    image: login,
-    github: "https://github.com/Lasarussp/login",
-    backend: "https://github.com/Lasarussp/login-back",
-    live: "https://login-web-app-1.netlify.app/",
+    name: "E-commerce App",
+    image: ecommerce,
+    github: "https://github.com/Lasarussp/e-commerce-frontend",
+    backend: "https://github.com/Lasarussp/e-commerce-backend",
+    live: "https://e-commerce-app-frontend.netlify.app/",
   },
-  /*{
+  {
     id: 3,
-    name: "Crud App",
-    image: crud,
-    github: "",
-    backend: "",
-    live: "",
-  },*/
+    name: "Url Shortner",
+    image: urlshortner,
+    github: "https://github.com/Lasarussp/urlshortner-frontend",
+    backend: "https://github.com/Lasarussp/urlshortner-backend",
+    live: "https://url-shortner-front-end.netlify.app/",
+  },
 ];
