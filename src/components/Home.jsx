@@ -18,7 +18,7 @@ const Home = () => {
         <div className="rounded-md shadow">
           <button className="flex items-center justify-center w-50 p-4 text-base font-medium text-white bg-pink-500 rounded-md hover:bg-pink-600">
             <a
-              href="https://drive.google.com/file/d/1GYy6qJw-NRim3sLpD5pHr4H1YmDN6k6O/view?usp=share_link"
+              href="https://drive.google.com/file/d/1Ew8vUjlfNUHxRAJqazO5riSDZA4xjwn8/view?usp=drivesdk"
               download={resume}
               target="_blank"
               rel="noopener noreferrer"
