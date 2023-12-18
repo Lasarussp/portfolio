@@ -13,7 +13,7 @@ export const data = [
   },
   {
     id: 2,
-    name: "E-commerce App",
+    name: "E-commerce App(MERN)",
     image: ecommerce,
     github: "https://github.com/Lasarussp/e-commerce-frontend",
     backend: "https://github.com/Lasarussp/e-commerce-backend",
@@ -27,4 +27,12 @@ export const data = [
     backend: "https://github.com/Lasarussp/urlshortner-backend",
     live: "https://url-shortner-front-end.netlify.app/",
   },
+  {
+    id: 4,
+    name: "Social Media",
+    image: socialmedia,
+    github: "https://github.com/Lasarussp/mern-frontend",
+    backend: "https://github.com/Lasarussp/mern-backend",
+    live: "https://socialmedia-mernapp.netlify.app/",
+  }
 ];
