@@ -1,6 +1,7 @@
 import inventory from '../assets/Projects/dashboard-inventory.png';
 import urlshortner from '../assets/Projects/urlshortner.png';
 import ecommerce from '../assets/Projects/ecommerce.png';
+import socialmedia from '../assets/Projects/socialmedia.png';
 
 export const data = [
   {
